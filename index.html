@@ -6,6 +6,7 @@
    <title>音声認識APIのサンプルトライ</title>
    <link rel="stylesheet" href="destyle.css">
    <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/99a4200a03.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <div id="global-container">
@@ -13,7 +14,11 @@
          <p class="header__txt">音声認識のAPIサンプル</p>
       </header>
       <div class="main">
-         
+         <div class="rec">
+            <p class="rec__title">下のボタンを押して、マイクに向かって話しかけてください。</p>
+            <button type="button" class="rec__button"><i class="fas fa-microphone-alt"></i></button>
+            <h1 id="result"></h1>
+         </div>
       </div>
    </div>
    <script type="text/javascript" src="script.js"></script>
