@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+#global-container {
+   width: 100vw;
+   height: 100vh;
+}
+
+.header {
+   height: 10vh;
+   background-color: rgb(90, 167, 147);
+}
+
+.header__txt {
+   color: #FFF;
+   font-size: 20px;
+   padding: 30px;
+}
